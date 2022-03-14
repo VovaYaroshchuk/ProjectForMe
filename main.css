@@ -1,0 +1,103 @@
+body {
+  font-family: Open Sans, sans-serif;
+  color: #212121;
+}
+
+img {
+  display: block;
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin: 0;
+}
+
+ul,
+ol {
+  margin: 0;
+  padding-left: 0;
+}
+
+button {
+  cursor: pointer;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+.container {
+  width: 1200px;
+  margin: 0px auto;
+  padding: 0px 15px;
+}
+
+.header {
+  background: #1b1b1b;
+  padding: 11px 0;
+}
+
+.header__container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header__logo--svg {
+  padding: 11px 0;
+  margin-right: 68px;
+}
+
+.header-list {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.35;
+  color: #ffffff;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-right: 422px;
+  margin-left: 68px;
+}
+
+.header-list__item:not(:last-child) {
+  margin-right: 46px;
+}
+
+.nav {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.header-contact {
+  margin-left: 13px;
+}
+
+.header-contact__link {
+  font-size: 17px;
+  line-height: 1.38;
+  color: #ffffff;
+}
+/*# sourceMappingURL=main.css.map */

@@ -13,16 +13,17 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css"
         integrity="sha512-wpPYUAdjBVSE4KJnH1VR1HeZfpl1ub8YT/NKx4PuQ5NmX2tKuGu6U/JRp5y+Y8XG2tV+wKQpNHVUX03MfMFn9Q=="
         crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <link rel="stylesheet" href="./main.css">
 </head>
 <body>
   <header class="header">
     <div class="header__container container">
-      <a href="#">
+      <a class="link" href="#">
         <svg width="132" height="60" aria-label="лого" class="header__logo">
             <use class="header__logo--svg" href="./img/symbol-defs.svg#icon-Frame12"></use>
         </svg>
       </a>
-      <nav>
+      <nav class="nav">
           <ul class="header-list list">
               <li class="header-list__item">Про нас</li>
               <li class="header-list__item">Сервис</li>
@@ -32,12 +33,12 @@
         <svg width="24" height="24" aria-label="лого" class="header__phone">
             <use class="header__phone--svg" href="./img/symbol-defs.svg#icon-call-1"></use>
         </svg>
-        <ul class="header-contact">
+        <ul class="header-contact list">
             <li class="header-contact__item">
-                <a href="tel:+380666911462">+380 66 691 14 62</a>
+                <a class="header-contact__link link" href="tel:+380666911462">+380 66 691 14 62</a>
             </li>
             <li class="header-contact__item">
-                <a href="tel:+380666911462">+380 66 691 14 62</a>
+                <a class="header-contact__link link" href="tel:+380666911462">+380 66 691 14 62</a>
             </li>
         </ul>
       </nav>
@@ -63,7 +64,7 @@
 </section>
 <section class="price">
     <h2 class="price__title" >Стоимость услуг</h2>
-    <ul class="price__list">
+    <ul class="price__list list">
         <li class="price__list--item">
             <h3 class="price__list--title">Аудит Вашей рекламы
             </h3>
@@ -78,7 +79,7 @@
         <li class="price__list--item">
             <h3 class="price__list--title">Настройка Рекламы Google Ads
             </h3>
-            <ul class="price__list--aftertitle-list">
+            <ul class="price__list--aftertitle-list list">
                 <li class="price__list--aftertitle-item">Поисковая выдача Google</li>
                 <li class="price__list--aftertitle-item">Торговая кампания</li>
                 <li class="price__list--aftertitle-item">Поисковые партнеры Google</li>
@@ -92,7 +93,7 @@
         <li class="price__list--item">
             <h3 class="price__list--title">Ведение Вашей рекламы
             </h3>
-            <ul class="price__list--aftertitle-list">
+            <ul class="price__list--aftertitle-list list">
                 <li class="price__list--aftertitle-item">Корректировка ставок и стратегий</li>
                 <li class="price__list--aftertitle-item">Настройка Аналитики</li>
                 <li class="price__list--aftertitle-item">Сбор ключевых слов</li>
@@ -109,7 +110,7 @@
     <h2 class="settings__title">
         Настройка контекстной рекламы Google Ads:
     </h2>
-    <ul class="settings__list">
+    <ul class="settings__list list">
         <li class="settings__item">Подбор ключевых слов (поисковых запросов).</li>
         <li class="settings__item">Настройка рекламных кампаний (выбор и настройка сетей, типов устройств, местоположений, ставок и бюджетов, метода показа
         объявлений).</li>
@@ -126,5 +127,100 @@
     <h2 class="certificates__title">Сертификаты</h2>
     <img src="./img/Frame10.png" alt="Сертификаты">
 </section>
+<section class="about">
+    <h2 class="about__title">Обо мне</h2>
+    <ul class="about__list list">
+        <li class="about__item">Если Вы искали специалиста по настройке контекстной рекламы Google ADS и попали на мой сайт, значит имеете задачу в
+        решении которой я могу помочь — наладить продажу ваших товаров через интернет, или увеличить объем.
+        
+</li>
+        <li class="about__item">Я помогу Вам выявить и решить проблему на каждом этапе, мои навыки подтверждены многолетним опытом и соответствующими
+        сертификатами. Сделайте заявку, воспользуйтесь бесплатной консультацией и опишите ваши задачи или проблемы</li>
+        <li class="about__item">Я найду оптимальное решение вашей проблемы, и уверен,что в дальнейшем наше сотрудничество будет долгосрочным и
+        продуктивным.</li>
+    </ul>
+    <svg width="413" height="413" aria-label="лого" >
+        <use class="about--svg" href="./img/symbol-defs.svg#icon-Frame-12"></use>
+    </svg>
+    <button class="about__btn" type="button">Подать заявку</button>
+</section>
+<section class="reviews">
+    <h2 class="reviews__title">Отзывы</h2>
+    <ul class="reviews__list list">
+        <li class="reviews__item">
+            <h3 class="reviews__item--name">Александр</h3>
+            <svg width="95" height="15" aria-label="лого">
+                <use class="class=reviews__item--svg" href="./img/symbol-defs.svg#icon-Frame-11"></use>
+            </svg>
+            <p class="reviews__item--date">21.12.2021</p>
+            <p class="reviews__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </li>
+        <li class="reviews__item">
+            <h3 class="reviews__item--name">Александр</h3>
+            <svg width="95" height="15" aria-label="лого">
+                <use class="class=reviews__item--svg" href="./img/symbol-defs.svg#icon-Frame-11"></use>
+            </svg>
+            <p class="reviews__item--date">21.12.2021</p>
+            <p class="reviews__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </li>
+        <li class="reviews__item">
+           <h3 class="reviews__item--name">Александр</h3>
+            <svg width="95" height="15" aria-label="лого">
+                <use class="class=reviews__item--svg" href="./img/symbol-defs.svg#icon-Frame-11"></use>
+            </svg>
+            <p class="reviews__item--date">21.12.2021</p>
+            <p class="reviews__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </li>
+        <li class="reviews__item">
+            <h3 class="reviews__item--name">Александр</h3>
+            <svg width="95" height="15" aria-label="лого">
+                <use class="class=reviews__item--svg" href="./img/symbol-defs.svg#icon-Frame-11"></use>
+            </svg>
+            <p class="reviews__item--date">21.12.2021</p>
+            <p class="reviews__item--text">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor.</p>
+        </li>
+    </ul>
+</section>
+<section class="connection">
+    <h3 class="connection__title">Свяжитесь с нами</h3>
+    <p class="connection__text">Сделайте заявку, воспользуйтесь бесплатной консультацией и опишите ваши задачи или проблемы.
+    Я найду оптимальное решение вашей проблемы, и уверен,что в дальнейшем наше сотрудничество будет долгосрочным и
+    продуктивным.</p>
+    <div class="connection__form">
+        <label for="">
+            <input type="text" placeholder="Имя">
+        </label>
+        <label for="">
+            <input type="text" placeholder="Укажите ссылку на сайт">
+        </label>
+        <label for="">
+            <textarea name="" id="" cols="30" rows="10" placeholder="Опишите свой запрос"></textarea>
+        </label>
+        <img src="./img/Google_icon2.png" alt="">
+        <button type="submit">Подать заявку</button>
+    </div>
+</section>
+<footer class="footer">
+    <svg width="120" height="60" aria-label="лого">
+        <use class="class=reviews__item--svg" href="./img/symbol-defs.svg#icon-Frame-6"></use>
+    </svg>
+    <ul class="footer-list list">
+        <li class="footer-list__item">Про нас</li>
+        <li class="footer-list__item">Сервис</li>
+        <li class="footer-list__item">Отзывы</li>
+        <li class="header-list__item">Контакты</li>
+    </ul>
+    <svg width="24" height="24" aria-label="лого" class="footer__phone">
+        <use class="footer__phone--svg" href="./img/symbol-defs.svg#icon-call-1"></use>
+    </svg>
+    <ul class="footer-contact list">
+        <li class="footer-contact__item">
+            <a class="link" href="tel:+380666911462">+380 66 691 14 62</a>
+        </li>
+        <li class="footer-contact__item">
+            <a class="link" href="tel:+380666911462">+380 66 691 14 62</a>
+        </li>
+    </ul>
+</footer>
 </body>
 </html>
