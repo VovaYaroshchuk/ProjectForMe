@@ -50,6 +50,8 @@ img {
 .header {
   background: #1b1b1b;
   padding: 11px 0;
+  max-width: 1440px;
+  margin: 0 auto;
 }
 
 .header__container {
@@ -102,11 +104,13 @@ img {
 }
 
 .hero {
-  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(112.76deg, #1f1f1f -2.7%, rgba(31, 31, 31, 0) 100.57%), url(../../img/businessman-doing-business-analysis.jpg);
+  background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), linear-gradient(112.76deg, #1f1f1f -2.7%, rgba(31, 31, 31, 0) 100.57%), url(././img/businessman-doing-business-analysis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 961px;
+  max-width: 1440px;
   position: relative;
+  margin: 0 auto;
 }
 
 .hero__title {
@@ -179,7 +183,100 @@ img {
   top: 790px;
 }
 
-.price__container {
-  background: url(../../img/Rectangle5.png);
+.price {
+  background: url(././img/Rectangle5.png);
+  position: relative;
+  max-width: 1440px;
+  height: 651.38px;
+  z-index: 5;
+  margin: 0 auto;
+  margin-top: -68px;
+}
+
+.price__title {
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 65px;
+  padding-top: 128px;
+  margin-bottom: 43px;
+}
+
+.price__list--title {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  margin-bottom: 10px;
+}
+
+.price__list {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.price__list--text,
+.price__list--aftertitle-item {
+  width: 334px;
+  font-size: 14px;
+  font-weight: 400;
+  line-height: 19px;
+  margin-bottom: 3px;
+  margin-right: 54px;
+}
+
+.price__list--price {
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 33px;
+  color: #f57500;
+  margin-top: 20px;
+}
+
+.price__list--wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+}
+
+.settings {
+  margin: 0 auto;
+  background-color: black;
+  position: relative;
+  z-index: 1;
+  margin-top: -45px;
+}
+
+.settings__title {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 33px;
+  color: #ffffff;
+  padding-top: 95px;
+  margin-bottom: 34px;
+}
+
+.settings__item {
+  font-family: "Roboto";
+  font-weight: 400;
+  font-size: 18px;
+  line-height: 142%;
+  width: 768px;
+  color: #ffffff;
+  margin-bottom: 23px;
+  padding-left: 72px;
+}
+
+.settings__item::before {
+  content: "";
+  width: 17px;
+  height: 17px;
+  background: #fc6c19;
 }
 /*# sourceMappingURL=main.css.map */

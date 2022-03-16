@@ -1,11 +1,13 @@
 .hero {
   background: linear-gradient(0deg, rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)),
     linear-gradient(112.76deg, #1f1f1f -2.7%, rgba(31, 31, 31, 0) 100.57%),
-    url(../../img/businessman-doing-business-analysis.jpg);
+    url(././img/businessman-doing-business-analysis.jpg);
   background-repeat: no-repeat;
   background-size: cover;
   height: 961px;
+  max-width: 1440px;
   position: relative;
+  margin: 0 auto;
 }
 
 .hero__title {
