@@ -1,9 +1,14 @@
 .settings {
   margin: 0 auto;
   background-color: black;
+  background-image: url(../../img/Google_icon1.png);
+  background-repeat: no-repeat;
+  background-position: 743px 2px;
   position: relative;
   z-index: 1;
   margin-top: -45px;
+  max-width: 1440px;
+  height: 712px;
 }
 .settings__title {
   font-weight: 700;
@@ -22,11 +27,11 @@
   width: 768px;
   color: #ffffff;
   margin-bottom: 23px;
-  padding-left: 72px;
-  &::before {
-    content: "";
-    width: 17px;
-    height: 17px;
-    background: #fc6c19;
-  }
+  padding-left: 13px;
+}
+
+.settings__list {
+  list-style: url(././img/Polygon1.png);
+  padding-left: 42px;
+  margin-bottom: 187px;
 }
